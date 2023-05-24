@@ -1,0 +1,244 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --branding-color: #cec8c8;
+  --secondary-color: grey;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--main-font);
+}
+body {
+  background-color: #e8e9ee;
+}
+
+h1 {
+  font-size: 86px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  opacity: 0.7;
+  line-height: 2;
+}
+h3 {
+  font-size: 44px;
+  font-weight: bolder;
+}
+p {
+  font-family: var(--main-font);
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+img {
+  vertical-align: middle;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin: 0;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.col {
+  flex: 1 0 0%;
+}
+
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 150px 20px;
+}
+
+.btn:hover {
+  color: black;
+}
+
+.btn-branding {
+  background-color: #f3e4ec;
+  border-radius: 10px;
+  color: rgb(92, 91, 91);
+  font-family: var(--main-font);
+  border: 2px solid rgb(92, 91, 91);
+  font-size: 18px;
+  line-height: 26px;
+  padding: 15px 30px;
+  font-weight: bolder;
+}
+.project-description {
+  text-align: center;
+}
+
+.about-me {
+  text-align: center;
+  padding: 80px 20px;
+  font-family: var(--main-font);
+}
+.about-me h1 {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.about-me h2 {
+  font-size: 26px;
+  font-weight: bolder;
+  opacity: 0.7;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: black;
+}
+.about-me p {
+  font-family: var(--main-font);
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  margin-bottom: 40px;
+  font-weight: bolder;
+}
+.btn-branding-linkedlin {
+  color: black;
+  font-family: var(--main-font);
+  border: 2px solid black;
+  font-weight: bolder;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 13px 25px;
+  margin-bottom: 40px;
+}
+.btn-branding-linkedlin:hover {
+  color: black;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.work-container {
+  font-family: var(--main-font);
+  text-align: center;
+  padding: 60px 20px 20px 20px;
+}
+
+.work-container h3 {
+  font-size: 32px;
+  line-height: 1.5;
+}
+.work-container p {
+  font-size: 22px;
+  color: black;
+  opacity: 0.7;
+}
+
+.contact-me {
+  font-family: var(--main-font);
+  text-align: center;
+  padding: 180px 20px;
+  background-color: var(--branding-color);
+}
+.contact-me h1 {
+  font-size: 54px;
+  line-height: 1.5;
+}
+.contact-me h3 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.contact-me p {
+  font-size: 24px;
+}
+.mail {
+  color: black;
+  text-decoration: none;
+}
+.mail:hover {
+  color: var(--secondary-color);
+}
+.contact-box {
+  background: var(--branding-color);
+  padding: 50px;
+  font-family: var(--main-font);
+}
+.contact-box h4 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-box p {
+  color: black;
+  opacity: 0.7;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.cv {
+  color: black;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.cv:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: black;
+}
+.links {
+  color: black;
+  font-size: 22px;
+}
+.links:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-weight: bolder;
+  }
+
+  .hero {
+    padding: 75px 10px;
+  }
+
+  .about-me {
+    padding: 40px 10px;
+  }
+  .about-me h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .about-me h2 {
+    font-size: 18px;
+    font-weight: bolder;
+    opacity: 0.7;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .about-me p {
+    font-family: var(--main-font);
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-weight: bolder;
+  }
+  .work-container h3 {
+    font-size: 26px;
+  }
+}
